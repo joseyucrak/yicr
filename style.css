@@ -1,0 +1,95 @@
+header {
+    background-color: black;
+    width: 950px;
+    height: 170px;
+    margin: 0 auto;
+    display: flex;
+  }
+  header h1 {
+    color: orange;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+  }
+.Imagen{
+    width: 170px;
+}
+nav {
+    background-color: #d31e5a;
+    width: 950px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 10px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-color: rgb(70, 68, 68);
+    width: 950px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: rgb(214, 255, 253);
+    width: 550px;
+    height: 460px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+section h2 {
+    color: orange;
+}
+
+section h3 {
+    color: #cfcfcf;
+}
+
+aside {
+    background-color: rgb(152, 210, 37);
+    width: 340px;
+    height: 460px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+aside h2 {
+    color: orange;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 950px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+footer p {
+    color: aliceblue;
+    height: 100%;
+    display: flex;
+    justify-content: left
+    align-items: center;
+}
